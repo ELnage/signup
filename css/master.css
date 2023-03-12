@@ -1,0 +1,137 @@
+:root {
+    --first-color : #8e1df7;
+    --sec-color : #19025e;
+    --sh-color : #8e1df720 ;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contanier {
+    width: 100%;
+    display: flex;
+}
+.contanier .div-form {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contanier .div-form h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contanier .div-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form .inp {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 60px;
+    background-color: var(--first-color);
+    box-shadow: 20px 20px 20px var(--sh-color),
+    -10px -10px 20px var(--sh-color) ;
+    position: relative;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .inp input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 70px;
+    font-size: 18px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .inp i {
+    position: absolute;
+    color: var(--first-color);
+    font-size: 30px;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+form .check {
+    width: 60%;
+    margin: 0 auto 40px;
+    display: flex;
+    align-items: center;
+}
+form .check input {
+    margin: 0 5px 0 20px;
+}
+form .check input:checked {
+    accent-color: var(--first-color);
+}
+form .check label {
+    color: #777;
+    font-size: 16px;
+}
+form input[type="submit"] {
+    color: #fff;
+    font-size: 22px;
+    width: 250px;
+    margin: auto;
+    background: linear-gradient(170deg, var(--first-color),var(--sec-color));
+    cursor: pointer;
+    height: 60px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .Reg {
+    text-align: center;
+    font-size: 16px;
+}
+form .Reg a {
+    text-decoration: none;
+    color: var(--first-color);
+}
+form .Reg:hover a {
+    text-decoration: underline;
+}
+.contanier .text {
+    height: 100vh;
+    width: 40%;
+    background: linear-gradient(170deg, var(--first-color),var(--sec-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: -4px 5px 20px 0px var(--sec-color);
+}
+.contanier .text h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contanier .text p {
+    margin: 0 auto;
+    width: 60%;
+    color: #f0f0f0;
+    font-size: 20px;
+    line-height: 2;
+}

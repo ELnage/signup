@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contanier {
+    width: 100%;
+    display: flex;
+}
+.contanier .div-form {
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contanier .div-form h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+form .inp {
+    position: relative;
+    width: 60%;
+    height: 60px;
+    background-color: #8e1df7;
+    box-shadow: 20px 20px 20px #8e1df720,
+    -10px -10px 20px #8e1df720 ;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .inp i {
+    color: #8e1df7;
+
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+form .inp input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .socail {
+    margin: 3px auto;
+    text-align: center;
+}
+form .socail span {
+    color: #8e1df7;
+    font-size: 22px;
+    position: relative;
+}
+form .socail span::before {
+    content: '';
+    position: absolute;
+    right: 25px;
+    top: 55%;
+    width: 200px;
+    height: 1.5px;
+    background-color: #777;
+}
+form .socail span::after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 55%;
+    width: 200px;
+    height: 1.5px;
+    background-color: #777;
+}
+form .socail i {
+    font-size: 20px;
+    margin: 8px 5px  ;
+}
+form  input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: linear-gradient(170deg, #8e1df7,#19025e);
+    color: #fff;
+    margin-bottom: 20px;
+    width: 30%;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form .log {
+    text-align: center;
+    font-size: 16px;
+}
+form .log a {
+    text-decoration: none;
+    color: #8e1df7;
+}
+form .log:hover a {
+    text-decoration: underline;
+}
+.contanier .text {
+    height: 100vh;
+    width: 40%;
+    background: linear-gradient(170deg, #8e1df7,#19025e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: -4px 5px 20px 0px #19025e;
+}
+.contanier .text h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contanier .text p {
+    margin: 0 auto;
+    width: 60%;
+    color: #f0f0f0;
+    font-size: 20px;
+    line-height: 2;
+}
